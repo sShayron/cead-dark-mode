@@ -4,6 +4,9 @@ style.innerHTML = `
 body {
   background-color: #000;
 }
+.table td {
+  color: #fff!important;
+}
 #page-content .card-body, #page-content .userprofile .profile_tree section, .userprofile .profile_tree #page-content section, .card {
   border: none;
   background-color: #000;
