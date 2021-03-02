@@ -1,7 +1,7 @@
 var style = document.createElement('style');
 style.type = 'text/css';
 style.innerHTML = `
-body {
+body, .obs, .icon-box-default {
   background-color: #000;
 }
 .table td {
@@ -25,5 +25,9 @@ section p, section strong, section em {
 ::selection {
   color: #fff;
   background: #3d3d3d;
+}
+img {
+  -webkit-filter: invert(1);
+   filter: invert(1);
 }`;
 document.getElementsByTagName('head')[0].appendChild(style);
